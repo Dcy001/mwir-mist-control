@@ -1,0 +1,50 @@
+{
+  "repository": "https://github.com/Dcy001/mwir-ship-signature-viewer",
+  "commit": "ebf258120d09f28e9177e9c7eb4d8bbc11c97b69",
+  "resources": {
+    "ship_mesh": {
+      "path": "software_test/model.nas",
+      "sha256": "98109480b36274ff12f7a55d32be7cdd2a8b6779002f9f4a9ebb13c2b248e3d4"
+    },
+    "sea_mesh": {
+      "path": "software_test/sea_surface_wideY_narrowX_waves_with_wake_minusX.nas",
+      "sha256": "64cd70a59e9301df2b3f38943146e89270fcb0dba68d4d60d13eeb184c087967"
+    },
+    "element_mapping": {
+      "path": "viewer/model_name_elem_mapping_v1.csv",
+      "sha256": "c006ff3d4730fb2e4beabecbbf551bc686dea0326a900e62995f9fcf37d0f957"
+    },
+    "ship_frame": {
+      "path": "viewer/ship_frame_meta_final.json",
+      "sha256": "6453343d8402d2a290ae22613d48dae669db854d5246f28c5fa4415884a6d24f"
+    },
+    "stack_outlets": {
+      "path": "viewer/stack_outlet_geometry_final.json",
+      "sha256": "0ec987e16df34ed8ebed231253921f2475ada4ed05200c9567cfe8afaddb5dea"
+    },
+    "surface_optics": {
+      "path": "viewer/ship_surface_optics_3_5um_final.csv",
+      "sha256": "b72ab34e5d39cee8135ff4cb7eb4cce6056fe61dd9fcede3b15650d78e46c607"
+    },
+    "water_nk": {
+      "path": "viewer/water_nk_3_5um.csv",
+      "sha256": "2eb7f95be052328dc4a343288cd0070a4aa42fe4df413b81097454e43178eb6a"
+    },
+    "broadband_response": {
+      "path": "viewer/Spectral response curves.csv",
+      "sha256": "eed4e5081d3c111f18c88aa1f1017c18ba76c57eeab4b0b7dfba47a39b8fe063"
+    },
+    "solar_spectrum": {
+      "path": "viewer/solar_spectral_irradiance.csv",
+      "sha256": "07bdad5093025ba60feb50cdaf55bd1b51f077650bff162b5404e187f5cccde6"
+    },
+    "atmosphere": {
+      "path": "viewer/atmos_timevarying_spectral_3_5um_param_regen (1).csv",
+      "sha256": "cf4cbcfc2c0f480931a9453b4ca5e2d5984d180497889a94bab6766cbbea95d8"
+    },
+    "atmosphere_meta": {
+      "path": "viewer/atmos_timevarying_spectral_3_5um_param_regen (1)_final.meta.json",
+      "sha256": "ead971374cdb134f0a284eb60e7a577e1c98d0548465a6ca2cd71b1fbdd4b25e"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "units": {
+    "radiance": "W m-2 sr-1",
+    "environment": ["degC", "m", "m/s", "degC"],
+    "vessel": ["m/s", "deg", "deg", "deg"],
+    "actions": ["MPa", "1", "deg"],
+    "pixel_area": "m2",
+    "timestamp": "UTC ms"
+  },
+  "channels": ["3-5", "3.9"],
+  "public_root": null,
+  "geometry": {"source": "viewer"},
+  "nozzles_json": "nozzles.json",
+  "enable_schedule_npz": "enable-schedule.npz",
+  "spray_calibration_json": "spray-calibration.json",
+  "frames": ["frames/frame-000.json"],
+  "spectral": {
+    "wavelength_um": null,
+    "narrow_band_um": null,
+    "noise": null,
+    "broadband": {"source": "calibrated", "csv": "response-wb.csv"},
+    "narrowband": {"source": "calibrated", "csv": "response-nb.csv"}
+  },
+  "surface_emissivity_source": "calibrated",
+  "water_nk": {"source": "viewer_25degC"}
+}

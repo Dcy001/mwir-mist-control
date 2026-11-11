@@ -1,0 +1,27 @@
+{
+  "mesh_unit": "mm",
+  "coordinate_convention": "mesh-frame",
+  "forward_axis_mesh": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "starboard_axis_mesh": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "up_axis_mesh": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "forward_definition": "bow direction in mesh coordinates",
+  "speed_mps_default": 2.7777777778,
+  "global_heading_deg": 0.0,
+  "heading_definition": "body +X aligned with true north for the current simulation convention",
+  "notes": [
+    "This is a modelling convention, not an observed real-world track heading.",
+    "Use this file instead of PCA inference in quantitative mode."
+  ]
+}

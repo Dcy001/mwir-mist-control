@@ -1,0 +1,6 @@
+{
+  "mode": "offline",
+  "channel_tolerance_ms": null,
+  "streams": ["environment", "vessel"],
+  "max_age_ms": {"wb": null, "nb": null, "environment": null, "vessel": null}
+}

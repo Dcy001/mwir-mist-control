@@ -1,0 +1,16 @@
+{
+  "height_m": 150.0,
+  "range_m": 440.0,
+  "alpha_deg": 20.0,
+  "ldown_semantics": "radiance",
+  "lpath_units": "W m^-2 sr^-1 um^-1",
+  "ldown_units": "W m^-2 sr^-1 um^-1",
+  "response_semantics": "rsr_radiance_weight",
+  "site": {
+    "latitude_deg_north": 47.20000076293945,
+    "longitude_deg_west": 88.5,
+    "timezone_hours_west_of_utc": 4
+  },
+  "time_window_local": "1984-07-19 05:54:00 to 1984-07-20 05:54:00",
+  "notes": "Fixed-view MWIR atmosphere metadata consistent with radiance V3 assumptions."
+}

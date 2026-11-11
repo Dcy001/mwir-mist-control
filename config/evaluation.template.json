@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "prediction": {"session": "session.json", "npz": "prediction-pairs.npz"},
+  "comparison": {
+    "no_mist": "no-mist.npz",
+    "strategies": {"Adaptive": "adaptive.npz", "Static regional": "static-regional.npz"},
+    "support_npz": "comparison-support.npz",
+    "roi_scope": {"mode": "full"},
+    "day_start_ns": null,
+    "epsilon": null
+  },
+  "water": {"session": "session.json", "npz": "water.npz"},
+  "latency": {"npz": "latency.npz"}
+}

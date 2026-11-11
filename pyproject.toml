@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mwir-mist-control"
+version = "0.2.0"
+description = "Radiance-guided water-mist control research implementation"
+requires-python = ">=3.9,<3.13"
+dependencies = ["numpy>=1.23.5,<2", "scipy>=1.11.4,<2"]
+readme = "README.md"
+
+[project.optional-dependencies]
+learning = ["torch>=2.4,<3"]
+test = ["pytest>=7.4,<9", "torch>=2.4,<3"]
+
+[project.scripts]
+mwir-control = "mwir_control.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mwir_control*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+mwir_control = ["public/manifest.json", "public/software_test/*.nas", "public/viewer/*.csv", "public/viewer/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

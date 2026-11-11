@@ -1,0 +1,39 @@
+{
+  "stack_outlets": [
+    {
+      "stack_id": "short_stack",
+      "center_mesh_mm": [
+        13112.2417,
+        -105.5221,
+        14425.7
+      ],
+      "normal_mesh": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "equivalent_diameter_m": 1.13,
+      "area_m2": 1.0029
+    },
+    {
+      "stack_id": "tall_stack",
+      "center_mesh_mm": [
+        -1082.1605,
+        0.007,
+        20424.9
+      ],
+      "normal_mesh": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "equivalent_diameter_m": 1.79,
+      "area_m2": 2.516
+    }
+  ],
+  "notes": [
+    "Short stack corresponds to diesel exhaust group.",
+    "Tall stack corresponds to gas-turbine exhaust group.",
+    "Normals set to +Z under current viewer plume convention."
+  ]
+}

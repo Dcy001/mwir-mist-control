@@ -1,0 +1,31 @@
+{
+  "record_id": null,
+  "source": null,
+  "data_source": null,
+  "actual_source": null,
+  "utc_ms": null,
+  "frame_npz": "frame-000.npz",
+  "camera": {
+    "shape": null,
+    "fx": null,
+    "fy": null,
+    "cx": null,
+    "cy": null,
+    "origin_m": null,
+    "camera_to_enu": null
+  },
+  "pose": {"ship_origin_m": null, "ship_to_enu": null},
+  "environment": null,
+  "vessel": null,
+  "sun": {"elevation_deg": null, "azimuth_deg": null},
+  "pixel_area_m2": null,
+  "roi": {"source": "masks"},
+  "boundary": {
+    "atmosphere": {"source": "kruse", "path_m": null},
+    "solar": {"source": "calibrated"},
+    "sea_emissivity": null,
+    "sea_reflectance": {"source": "calibrated_pixels"},
+    "inflow_wind_enu_m_s": null,
+    "plumes": []
+  }
+}

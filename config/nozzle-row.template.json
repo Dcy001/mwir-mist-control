@@ -1,0 +1,10 @@
+{
+  "nozzle_id": null,
+  "region": null,
+  "kind": null,
+  "position_m": null,
+  "mount_rotation": null,
+  "deflection_axis": null,
+  "reference_pressure_mpa": null,
+  "flow_extension": []
+}

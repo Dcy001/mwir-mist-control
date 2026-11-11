@@ -1,0 +1,5 @@
+# Versions exercised together on Python 3.9.19. Select the appropriate PyTorch wheel index.
+numpy==1.23.5
+scipy==1.13.1
+torch==2.4.0
+pytest==8.3.3

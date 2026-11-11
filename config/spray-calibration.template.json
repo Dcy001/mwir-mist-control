@@ -1,0 +1,20 @@
+{
+  "water_density_kg_m3": null,
+  "regions": {
+    "<region_id>": {
+      "length_m": null,
+      "initial_half_thickness_m": null,
+      "growth": null,
+      "diameter50_m": null,
+      "sigma_g": null
+    }
+  },
+  "nozzles": {
+    "<nozzle_id>": {
+      "pressure_mpa": null,
+      "jet_speed_mps": null,
+      "curvature_world_m_inv": null,
+      "length_m": null
+    }
+  }
+}
